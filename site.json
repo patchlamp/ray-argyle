@@ -187,49 +187,6 @@
    },
    {
     "class": "client",
-    "id": "own-gallery-5",
-    "alt": "Ray Argyle in a long coat, standing in blue light",
-    "slot": "gallery",
-    "src": "images/own-gallery-5-1600.jpg",
-    "w": 1600,
-    "h": 2000,
-    "variants": [
-     {
-      "src": "images/own-gallery-5-800.avif",
-      "w": 800,
-      "type": "image/avif"
-     },
-     {
-      "src": "images/own-gallery-5-800.webp",
-      "w": 800,
-      "type": "image/webp"
-     },
-     {
-      "src": "images/own-gallery-5-800.jpg",
-      "w": 800,
-      "type": "image/jpeg"
-     },
-     {
-      "src": "images/own-gallery-5-1600.avif",
-      "w": 1600,
-      "type": "image/avif"
-     },
-     {
-      "src": "images/own-gallery-5-1600.webp",
-      "w": 1600,
-      "type": "image/webp"
-     },
-     {
-      "src": "images/own-gallery-5-1600.jpg",
-      "w": 1600,
-      "type": "image/jpeg"
-     }
-    ],
-    "treatment": "none",
-    "ratio": "4:5"
-   },
-   {
-    "class": "client",
     "id": "own-gallery-6",
     "alt": "Ray Argyle singing with a red guitar under neon lights",
     "slot": "gallery",
@@ -301,34 +258,6 @@
    },
    {
     "class": "client",
-    "id": "own-work-1",
-    "alt": "A still from Ray Argyle's video \"CURRENCY\"",
-    "slot": "work",
-    "src": "images/own-work-1-640.jpg",
-    "w": 640,
-    "h": 360,
-    "variants": [
-     {
-      "src": "images/own-work-1-640.avif",
-      "w": 640,
-      "type": "image/avif"
-     },
-     {
-      "src": "images/own-work-1-640.webp",
-      "w": 640,
-      "type": "image/webp"
-     },
-     {
-      "src": "images/own-work-1-640.jpg",
-      "w": 640,
-      "type": "image/jpeg"
-     }
-    ],
-    "treatment": "none",
-    "ratio": "16:9"
-   },
-   {
-    "class": "client",
     "id": "own-work-2",
     "alt": "A still from Ray Argyle's video \"Lost To You\"",
     "slot": "work",
@@ -357,161 +286,204 @@
    },
    {
     "class": "client",
-    "id": "own-work-3",
-    "alt": "A still from Ray Argyle's video \"you have no idea\"",
-    "slot": "work",
-    "src": "images/own-work-3-640.jpg",
-    "w": 640,
-    "h": 360,
-    "variants": [
-     {
-      "src": "images/own-work-3-640.avif",
-      "w": 640,
-      "type": "image/avif"
-     },
-     {
-      "src": "images/own-work-3-640.webp",
-      "w": 640,
-      "type": "image/webp"
-     },
-     {
-      "src": "images/own-work-3-640.jpg",
-      "w": 640,
-      "type": "image/jpeg"
-     }
-    ],
-    "treatment": "none",
-    "ratio": "16:9"
-   },
-   {
-    "class": "client",
-    "id": "own-work-4",
-    "alt": "A still from Ray Argyle's video \"not my problem anymore\"",
-    "slot": "work",
-    "src": "images/own-work-4-1280.jpg",
-    "w": 1280,
-    "h": 720,
-    "variants": [
-     {
-      "src": "images/own-work-4-800.avif",
-      "w": 800,
-      "type": "image/avif"
-     },
-     {
-      "src": "images/own-work-4-800.webp",
-      "w": 800,
-      "type": "image/webp"
-     },
-     {
-      "src": "images/own-work-4-800.jpg",
-      "w": 800,
-      "type": "image/jpeg"
-     },
-     {
-      "src": "images/own-work-4-1280.avif",
-      "w": 1280,
-      "type": "image/avif"
-     },
-     {
-      "src": "images/own-work-4-1280.webp",
-      "w": 1280,
-      "type": "image/webp"
-     },
-     {
-      "src": "images/own-work-4-1280.jpg",
-      "w": 1280,
-      "type": "image/jpeg"
-     }
-    ],
-    "treatment": "none",
-    "ratio": "16:9"
-   },
-   {
-    "class": "client",
-    "id": "own-work-5",
-    "alt": "A still from Ray Argyle's video \"So Far Away From It Now\"",
-    "slot": "work",
-    "src": "images/own-work-5-1280.jpg",
-    "w": 1280,
-    "h": 720,
-    "variants": [
-     {
-      "src": "images/own-work-5-800.avif",
-      "w": 800,
-      "type": "image/avif"
-     },
-     {
-      "src": "images/own-work-5-800.webp",
-      "w": 800,
-      "type": "image/webp"
-     },
-     {
-      "src": "images/own-work-5-800.jpg",
-      "w": 800,
-      "type": "image/jpeg"
-     },
-     {
-      "src": "images/own-work-5-1280.avif",
-      "w": 1280,
-      "type": "image/avif"
-     },
-     {
-      "src": "images/own-work-5-1280.webp",
-      "w": 1280,
-      "type": "image/webp"
-     },
-     {
-      "src": "images/own-work-5-1280.jpg",
-      "w": 1280,
-      "type": "image/jpeg"
-     }
-    ],
-    "treatment": "none",
-    "ratio": "16:9"
-   },
-   {
-    "class": "client",
-    "id": "own-hero-2",
-    "alt": "Ray Argyle singing into a microphone with an acoustic guitar",
+    "id": "own-hero-1",
+    "alt": "Ray Argyle in a long coat, standing in a column of blue light",
     "source": "Ray's own site, rayargyle.com",
     "licence": "theirs",
     "focal": [
      0.5,
-     0.25
+     0.22
     ],
     "slot": "hero",
-    "src": "images/own-hero-2-1170.jpg",
-    "w": 1170,
-    "h": 658,
+    "src": "images/own-hero-1-1600.jpg",
+    "w": 1600,
+    "h": 900,
     "variants": [
      {
-      "src": "images/own-hero-2-800.avif",
+      "src": "images/own-hero-1-800.avif",
       "w": 800,
       "type": "image/avif"
      },
      {
-      "src": "images/own-hero-2-800.webp",
+      "src": "images/own-hero-1-800.webp",
       "w": 800,
       "type": "image/webp"
      },
      {
-      "src": "images/own-hero-2-800.jpg",
+      "src": "images/own-hero-1-800.jpg",
       "w": 800,
       "type": "image/jpeg"
      },
      {
-      "src": "images/own-hero-2-1170.avif",
-      "w": 1170,
+      "src": "images/own-hero-1-1600.avif",
+      "w": 1600,
       "type": "image/avif"
      },
      {
-      "src": "images/own-hero-2-1170.webp",
-      "w": 1170,
+      "src": "images/own-hero-1-1600.webp",
+      "w": 1600,
       "type": "image/webp"
      },
      {
-      "src": "images/own-hero-2-1170.jpg",
-      "w": 1170,
+      "src": "images/own-hero-1-1600.jpg",
+      "w": 1600,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "16:9"
+   },
+   {
+    "class": "client",
+    "id": "own-work-6",
+    "alt": "A still from Ray Argyle's video \"CURRENCY\"",
+    "slot": "work",
+    "src": "images/own-work-6-594.jpg",
+    "w": 594,
+    "h": 334,
+    "variants": [
+     {
+      "src": "images/own-work-6-594.avif",
+      "w": 594,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-work-6-594.webp",
+      "w": 594,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-work-6-594.jpg",
+      "w": 594,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "16:9"
+   },
+   {
+    "class": "client",
+    "id": "own-work-7",
+    "alt": "A still from Ray Argyle's video \"you have no idea\"",
+    "slot": "work",
+    "src": "images/own-work-7-1202.jpg",
+    "w": 1202,
+    "h": 676,
+    "variants": [
+     {
+      "src": "images/own-work-7-800.avif",
+      "w": 800,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-work-7-800.webp",
+      "w": 800,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-work-7-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+     },
+     {
+      "src": "images/own-work-7-1202.avif",
+      "w": 1202,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-work-7-1202.webp",
+      "w": 1202,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-work-7-1202.jpg",
+      "w": 1202,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "16:9"
+   },
+   {
+    "class": "client",
+    "id": "own-work-8",
+    "alt": "A still from Ray Argyle's video \"not my problem anymore\"",
+    "slot": "work",
+    "src": "images/own-work-8-1220.jpg",
+    "w": 1220,
+    "h": 686,
+    "variants": [
+     {
+      "src": "images/own-work-8-800.avif",
+      "w": 800,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-work-8-800.webp",
+      "w": 800,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-work-8-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+     },
+     {
+      "src": "images/own-work-8-1220.avif",
+      "w": 1220,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-work-8-1220.webp",
+      "w": 1220,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-work-8-1220.jpg",
+      "w": 1220,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "16:9"
+   },
+   {
+    "class": "client",
+    "id": "own-work-9",
+    "alt": "A still from Ray Argyle's video \"So Far Away From It Now\"",
+    "slot": "work",
+    "src": "images/own-work-9-1202.jpg",
+    "w": 1202,
+    "h": 676,
+    "variants": [
+     {
+      "src": "images/own-work-9-800.avif",
+      "w": 800,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-work-9-800.webp",
+      "w": 800,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-work-9-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+     },
+     {
+      "src": "images/own-work-9-1202.avif",
+      "w": 1202,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-work-9-1202.webp",
+      "w": 1202,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-work-9-1202.jpg",
+      "w": 1202,
       "type": "image/jpeg"
      }
     ],
@@ -528,7 +500,7 @@
     "text": "Watch the videos",
     "href": "#work"
    },
-   "image": "own-hero-2"
+   "image": "own-hero-1"
   },
   {
    "type": "work",
@@ -538,17 +510,17 @@
     {
      "title": "So Far Away From It Now",
      "text": "On YouTube",
-     "image": "own-work-5"
+     "image": "own-work-9"
     },
     {
      "title": "not my problem anymore",
      "text": "On YouTube",
-     "image": "own-work-4"
+     "image": "own-work-8"
     },
     {
      "title": "you have no idea",
      "text": "On YouTube",
-     "image": "own-work-3"
+     "image": "own-work-7"
     },
     {
      "title": "Lost To You",
@@ -558,7 +530,7 @@
     {
      "title": "CURRENCY",
      "text": "Directed by Ari Davis, 2009",
-     "image": "own-work-1"
+     "image": "own-work-6"
     }
    ]
   },
@@ -571,7 +543,6 @@
     "own-gallery-2",
     "own-gallery-3",
     "own-gallery-4",
-    "own-gallery-5",
     "own-gallery-6",
     "own-gallery-7"
    ]

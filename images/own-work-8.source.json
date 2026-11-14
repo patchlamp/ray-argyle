@@ -1,0 +1,43 @@
+{
+  "class": "client",
+  "id": "own-work-8",
+  "alt": "A still from Ray Argyle's video \"not my problem anymore\"",
+  "slot": "work",
+  "src": "images/own-work-8-1220.jpg",
+  "w": 1220,
+  "h": 686,
+  "variants": [
+    {
+      "src": "images/own-work-8-800.avif",
+      "w": 800,
+      "type": "image/avif"
+    },
+    {
+      "src": "images/own-work-8-800.webp",
+      "w": 800,
+      "type": "image/webp"
+    },
+    {
+      "src": "images/own-work-8-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+    },
+    {
+      "src": "images/own-work-8-1220.avif",
+      "w": 1220,
+      "type": "image/avif"
+    },
+    {
+      "src": "images/own-work-8-1220.webp",
+      "w": 1220,
+      "type": "image/webp"
+    },
+    {
+      "src": "images/own-work-8-1220.jpg",
+      "w": 1220,
+      "type": "image/jpeg"
+    }
+  ],
+  "treatment": "none",
+  "ratio": "16:9"
+}

@@ -1,0 +1,28 @@
+{
+  "class": "client",
+  "id": "own-work-6",
+  "alt": "A still from Ray Argyle's video \"CURRENCY\"",
+  "slot": "work",
+  "src": "images/own-work-6-594.jpg",
+  "w": 594,
+  "h": 334,
+  "variants": [
+    {
+      "src": "images/own-work-6-594.avif",
+      "w": 594,
+      "type": "image/avif"
+    },
+    {
+      "src": "images/own-work-6-594.webp",
+      "w": 594,
+      "type": "image/webp"
+    },
+    {
+      "src": "images/own-work-6-594.jpg",
+      "w": 594,
+      "type": "image/jpeg"
+    }
+  ],
+  "treatment": "none",
+  "ratio": "16:9"
+}

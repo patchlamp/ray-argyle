@@ -1,0 +1,49 @@
+{
+  "class": "client",
+  "id": "own-hero-1",
+  "alt": "Ray Argyle in a long coat, standing in a column of blue light",
+  "source": "Ray's own site, rayargyle.com",
+  "licence": "theirs",
+  "focal": [
+    0.5,
+    0.22
+  ],
+  "slot": "hero",
+  "src": "images/own-hero-1-1600.jpg",
+  "w": 1600,
+  "h": 900,
+  "variants": [
+    {
+      "src": "images/own-hero-1-800.avif",
+      "w": 800,
+      "type": "image/avif"
+    },
+    {
+      "src": "images/own-hero-1-800.webp",
+      "w": 800,
+      "type": "image/webp"
+    },
+    {
+      "src": "images/own-hero-1-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+    },
+    {
+      "src": "images/own-hero-1-1600.avif",
+      "w": 1600,
+      "type": "image/avif"
+    },
+    {
+      "src": "images/own-hero-1-1600.webp",
+      "w": 1600,
+      "type": "image/webp"
+    },
+    {
+      "src": "images/own-hero-1-1600.jpg",
+      "w": 1600,
+      "type": "image/jpeg"
+    }
+  ],
+  "treatment": "none",
+  "ratio": "16:9"
+}
