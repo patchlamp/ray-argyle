@@ -15,49 +15,6 @@
   "images": [
    {
     "class": "client",
-    "id": "own-gallery-1",
-    "alt": "Ray Argyle playing guitar and singing in front of a brick wall hung with string lights",
-    "slot": "gallery",
-    "src": "images/own-gallery-1-1242.jpg",
-    "w": 1242,
-    "h": 1552,
-    "variants": [
-     {
-      "src": "images/own-gallery-1-800.avif",
-      "w": 800,
-      "type": "image/avif"
-     },
-     {
-      "src": "images/own-gallery-1-800.webp",
-      "w": 800,
-      "type": "image/webp"
-     },
-     {
-      "src": "images/own-gallery-1-800.jpg",
-      "w": 800,
-      "type": "image/jpeg"
-     },
-     {
-      "src": "images/own-gallery-1-1242.avif",
-      "w": 1242,
-      "type": "image/avif"
-     },
-     {
-      "src": "images/own-gallery-1-1242.webp",
-      "w": 1242,
-      "type": "image/webp"
-     },
-     {
-      "src": "images/own-gallery-1-1242.jpg",
-      "w": 1242,
-      "type": "image/jpeg"
-     }
-    ],
-    "treatment": "none",
-    "ratio": "4:5"
-   },
-   {
-    "class": "client",
     "id": "own-gallery-2",
     "alt": "Ray Argyle playing an acoustic guitar outdoors at golden hour",
     "slot": "gallery",
@@ -286,55 +243,6 @@
    },
    {
     "class": "client",
-    "id": "own-hero-1",
-    "alt": "Ray Argyle in a long coat, standing in a column of blue light",
-    "source": "Ray's own site, rayargyle.com",
-    "licence": "theirs",
-    "focal": [
-     0.5,
-     0.22
-    ],
-    "slot": "hero",
-    "src": "images/own-hero-1-1600.jpg",
-    "w": 1600,
-    "h": 900,
-    "variants": [
-     {
-      "src": "images/own-hero-1-800.avif",
-      "w": 800,
-      "type": "image/avif"
-     },
-     {
-      "src": "images/own-hero-1-800.webp",
-      "w": 800,
-      "type": "image/webp"
-     },
-     {
-      "src": "images/own-hero-1-800.jpg",
-      "w": 800,
-      "type": "image/jpeg"
-     },
-     {
-      "src": "images/own-hero-1-1600.avif",
-      "w": 1600,
-      "type": "image/avif"
-     },
-     {
-      "src": "images/own-hero-1-1600.webp",
-      "w": 1600,
-      "type": "image/webp"
-     },
-     {
-      "src": "images/own-hero-1-1600.jpg",
-      "w": 1600,
-      "type": "image/jpeg"
-     }
-    ],
-    "treatment": "none",
-    "ratio": "16:9"
-   },
-   {
-    "class": "client",
     "id": "own-work-6",
     "alt": "A still from Ray Argyle's video \"CURRENCY\"",
     "slot": "work",
@@ -489,6 +397,104 @@
     ],
     "treatment": "none",
     "ratio": "16:9"
+   },
+   {
+    "class": "client",
+    "id": "own-hero-2",
+    "alt": "Ray Argyle playing guitar and singing in front of a brick wall hung with string lights",
+    "source": "Ray's own site, rayargyle.com",
+    "licence": "theirs",
+    "focal": [
+     0.5,
+     0.33
+    ],
+    "slot": "hero",
+    "src": "images/own-hero-2-1242.jpg",
+    "w": 1242,
+    "h": 1552,
+    "variants": [
+     {
+      "src": "images/own-hero-2-800.avif",
+      "w": 800,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-hero-2-800.webp",
+      "w": 800,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-hero-2-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+     },
+     {
+      "src": "images/own-hero-2-1242.avif",
+      "w": 1242,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-hero-2-1242.webp",
+      "w": 1242,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-hero-2-1242.jpg",
+      "w": 1242,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "4:5"
+   },
+   {
+    "class": "client",
+    "id": "own-gallery-5",
+    "alt": "Ray Argyle in a long coat, standing in a column of blue light",
+    "source": "Ray's own site, rayargyle.com",
+    "licence": "theirs",
+    "focal": [
+     0.5,
+     0.22
+    ],
+    "slot": "gallery",
+    "src": "images/own-gallery-5-1600.jpg",
+    "w": 1600,
+    "h": 2000,
+    "variants": [
+     {
+      "src": "images/own-gallery-5-800.avif",
+      "w": 800,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-gallery-5-800.webp",
+      "w": 800,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-gallery-5-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+     },
+     {
+      "src": "images/own-gallery-5-1600.avif",
+      "w": 1600,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-gallery-5-1600.webp",
+      "w": 1600,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-gallery-5-1600.jpg",
+      "w": 1600,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "4:5"
    }
   ]
  },
@@ -500,7 +506,8 @@
     "text": "Watch the videos",
     "href": "#work"
    },
-   "image": "own-hero-1"
+   "image": "own-hero-2",
+   "variant": "split"
   },
   {
    "type": "work",
@@ -532,19 +539,20 @@
      "text": "Directed by Ari Davis, 2009",
      "image": "own-work-6"
     }
-   ]
+   ],
+   "variant": "grid"
   },
   {
    "type": "gallery",
    "kicker": "Photos",
    "heading": "Live",
    "images": [
-    "own-gallery-1",
     "own-gallery-2",
     "own-gallery-3",
     "own-gallery-4",
     "own-gallery-6",
-    "own-gallery-7"
+    "own-gallery-7",
+    "own-gallery-5"
    ]
   },
   {

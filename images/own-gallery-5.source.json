@@ -1,6 +1,6 @@
 {
   "class": "client",
-  "id": "own-hero-1",
+  "id": "own-gallery-5",
   "alt": "Ray Argyle in a long coat, standing in a column of blue light",
   "source": "Ray's own site, rayargyle.com",
   "licence": "theirs",
@@ -8,42 +8,42 @@
     0.5,
     0.22
   ],
-  "slot": "hero",
-  "src": "images/own-hero-1-1600.jpg",
+  "slot": "gallery",
+  "src": "images/own-gallery-5-1600.jpg",
   "w": 1600,
-  "h": 900,
+  "h": 2000,
   "variants": [
     {
-      "src": "images/own-hero-1-800.avif",
+      "src": "images/own-gallery-5-800.avif",
       "w": 800,
       "type": "image/avif"
     },
     {
-      "src": "images/own-hero-1-800.webp",
+      "src": "images/own-gallery-5-800.webp",
       "w": 800,
       "type": "image/webp"
     },
     {
-      "src": "images/own-hero-1-800.jpg",
+      "src": "images/own-gallery-5-800.jpg",
       "w": 800,
       "type": "image/jpeg"
     },
     {
-      "src": "images/own-hero-1-1600.avif",
+      "src": "images/own-gallery-5-1600.avif",
       "w": 1600,
       "type": "image/avif"
     },
     {
-      "src": "images/own-hero-1-1600.webp",
+      "src": "images/own-gallery-5-1600.webp",
       "w": 1600,
       "type": "image/webp"
     },
     {
-      "src": "images/own-hero-1-1600.jpg",
+      "src": "images/own-gallery-5-1600.jpg",
       "w": 1600,
       "type": "image/jpeg"
     }
   ],
   "treatment": "none",
-  "ratio": "16:9"
+  "ratio": "4:5"
 }

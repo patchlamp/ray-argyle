@@ -8,6 +8,7 @@
   <!-- The pages are rendered from site.json by `site render` (lib/sitegen.py): change site.json, never this file. -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/look.css">
+  <link rel="stylesheet" href="css/custom.css">
   <script src="js/motion.js" defer></script>
 </head>
 <body class="page-home">
@@ -23,9 +24,9 @@
   </header>
 
   <main id="top">
-    <section class="hero-block hero--full-dark has-image" id="hero">
+    <section class="hero-block hero--split has-image" id="hero">
       <figure class="hero-media">
-        <picture><source type="image/avif" srcset="images/own-hero-1-800.avif 800w, images/own-hero-1-1600.avif 1600w" sizes="100vw"><source type="image/webp" srcset="images/own-hero-1-800.webp 800w, images/own-hero-1-1600.webp 1600w" sizes="100vw"><img src="images/own-hero-1-1600.jpg" srcset="images/own-hero-1-800.jpg 800w, images/own-hero-1-1600.jpg 1600w" sizes="100vw" width="1600" height="900" alt="Ray Argyle in a long coat, standing in a column of blue light" loading="eager" fetchpriority="high" decoding="async"></picture>
+        <picture><source type="image/avif" srcset="images/own-hero-2-800.avif 800w, images/own-hero-2-1242.avif 1242w" sizes="100vw"><source type="image/webp" srcset="images/own-hero-2-800.webp 800w, images/own-hero-2-1242.webp 1242w" sizes="100vw"><img src="images/own-hero-2-1242.jpg" srcset="images/own-hero-2-800.jpg 800w, images/own-hero-2-1242.jpg 1242w" sizes="100vw" width="1242" height="1552" alt="Ray Argyle playing guitar and singing in front of a brick wall hung with string lights" loading="eager" fetchpriority="high" decoding="async"></picture>
       </figure>
       <div class="hero-copy">
         <h1 class="hero-heading">Songs and videos by Ray Argyle</h1>
@@ -35,7 +36,7 @@
         </div>
       </div>
     </section>
-    <section class="section work work--index" id="work">
+    <section class="section work work--grid" id="work">
       <div class="section-inner">
         <div class="section-head">
           <p class="kicker">Videos</p>
@@ -46,51 +47,36 @@
             <figure class="work-media">
               <picture><source type="image/avif" srcset="images/own-work-9-800.avif 800w, images/own-work-9-1202.avif 1202w" sizes="(min-width: 900px) 50vw, 100vw"><source type="image/webp" srcset="images/own-work-9-800.webp 800w, images/own-work-9-1202.webp 1202w" sizes="(min-width: 900px) 50vw, 100vw"><img src="images/own-work-9-1202.jpg" srcset="images/own-work-9-800.jpg 800w, images/own-work-9-1202.jpg 1202w" sizes="(min-width: 900px) 50vw, 100vw" width="1202" height="676" alt="A still from Ray Argyle&#x27;s video &quot;So Far Away From It Now&quot;" loading="lazy" decoding="async"></picture>
             </figure>
-            <div class="work-caption">
-              <span class="work-n" aria-hidden="true">01</span>
-              <h3>So Far Away From It Now</h3>
-              <p>On YouTube</p>
-            </div>
+            <h3>So Far Away From It Now</h3>
+            <p>On YouTube</p>
           </li>
           <li class="work-item" data-reveal>
             <figure class="work-media">
               <picture><source type="image/avif" srcset="images/own-work-8-800.avif 800w, images/own-work-8-1220.avif 1220w" sizes="(min-width: 900px) 50vw, 100vw"><source type="image/webp" srcset="images/own-work-8-800.webp 800w, images/own-work-8-1220.webp 1220w" sizes="(min-width: 900px) 50vw, 100vw"><img src="images/own-work-8-1220.jpg" srcset="images/own-work-8-800.jpg 800w, images/own-work-8-1220.jpg 1220w" sizes="(min-width: 900px) 50vw, 100vw" width="1220" height="686" alt="A still from Ray Argyle&#x27;s video &quot;not my problem anymore&quot;" loading="lazy" decoding="async"></picture>
             </figure>
-            <div class="work-caption">
-              <span class="work-n" aria-hidden="true">02</span>
-              <h3>not my problem anymore</h3>
-              <p>On YouTube</p>
-            </div>
+            <h3>not my problem anymore</h3>
+            <p>On YouTube</p>
           </li>
           <li class="work-item" data-reveal>
             <figure class="work-media">
               <picture><source type="image/avif" srcset="images/own-work-7-800.avif 800w, images/own-work-7-1202.avif 1202w" sizes="(min-width: 900px) 50vw, 100vw"><source type="image/webp" srcset="images/own-work-7-800.webp 800w, images/own-work-7-1202.webp 1202w" sizes="(min-width: 900px) 50vw, 100vw"><img src="images/own-work-7-1202.jpg" srcset="images/own-work-7-800.jpg 800w, images/own-work-7-1202.jpg 1202w" sizes="(min-width: 900px) 50vw, 100vw" width="1202" height="676" alt="A still from Ray Argyle&#x27;s video &quot;you have no idea&quot;" loading="lazy" decoding="async"></picture>
             </figure>
-            <div class="work-caption">
-              <span class="work-n" aria-hidden="true">03</span>
-              <h3>you have no idea</h3>
-              <p>On YouTube</p>
-            </div>
+            <h3>you have no idea</h3>
+            <p>On YouTube</p>
           </li>
           <li class="work-item" data-reveal>
             <figure class="work-media">
               <picture><source type="image/avif" srcset="images/own-work-2-640.avif 640w" sizes="(min-width: 900px) 50vw, 100vw"><source type="image/webp" srcset="images/own-work-2-640.webp 640w" sizes="(min-width: 900px) 50vw, 100vw"><img src="images/own-work-2-640.jpg" srcset="images/own-work-2-640.jpg 640w" sizes="(min-width: 900px) 50vw, 100vw" width="640" height="360" alt="A still from Ray Argyle&#x27;s video &quot;Lost To You&quot;" loading="lazy" decoding="async"></picture>
             </figure>
-            <div class="work-caption">
-              <span class="work-n" aria-hidden="true">04</span>
-              <h3>Lost To You</h3>
-              <p>Directed by Ari Davis, 2010</p>
-            </div>
+            <h3>Lost To You</h3>
+            <p>Directed by Ari Davis, 2010</p>
           </li>
           <li class="work-item" data-reveal>
             <figure class="work-media">
               <picture><source type="image/avif" srcset="images/own-work-6-594.avif 594w" sizes="(min-width: 900px) 50vw, 100vw"><source type="image/webp" srcset="images/own-work-6-594.webp 594w" sizes="(min-width: 900px) 50vw, 100vw"><img src="images/own-work-6-594.jpg" srcset="images/own-work-6-594.jpg 594w" sizes="(min-width: 900px) 50vw, 100vw" width="594" height="334" alt="A still from Ray Argyle&#x27;s video &quot;CURRENCY&quot;" loading="lazy" decoding="async"></picture>
             </figure>
-            <div class="work-caption">
-              <span class="work-n" aria-hidden="true">05</span>
-              <h3>CURRENCY</h3>
-              <p>Directed by Ari Davis, 2009</p>
-            </div>
+            <h3>CURRENCY</h3>
+            <p>Directed by Ari Davis, 2009</p>
           </li>
         </ol>
       </div>
@@ -102,11 +88,6 @@
           <h2>Live</h2>
         </div>
         <ul class="gallery-grid">
-          <li data-reveal>
-            <figure>
-              <picture><source type="image/avif" srcset="images/own-gallery-1-800.avif 800w, images/own-gallery-1-1242.avif 1242w" sizes="(min-width: 900px) 50vw, 100vw"><source type="image/webp" srcset="images/own-gallery-1-800.webp 800w, images/own-gallery-1-1242.webp 1242w" sizes="(min-width: 900px) 50vw, 100vw"><img src="images/own-gallery-1-1242.jpg" srcset="images/own-gallery-1-800.jpg 800w, images/own-gallery-1-1242.jpg 1242w" sizes="(min-width: 900px) 50vw, 100vw" width="1242" height="1552" alt="Ray Argyle playing guitar and singing in front of a brick wall hung with string lights" loading="lazy" decoding="async"></picture>
-            </figure>
-          </li>
           <li data-reveal>
             <figure>
               <picture><source type="image/avif" srcset="images/own-gallery-2-800.avif 800w, images/own-gallery-2-1124.avif 1124w" sizes="(min-width: 900px) 50vw, 100vw"><source type="image/webp" srcset="images/own-gallery-2-800.webp 800w, images/own-gallery-2-1124.webp 1124w" sizes="(min-width: 900px) 50vw, 100vw"><img src="images/own-gallery-2-1124.jpg" srcset="images/own-gallery-2-800.jpg 800w, images/own-gallery-2-1124.jpg 1124w" sizes="(min-width: 900px) 50vw, 100vw" width="1124" height="1405" alt="Ray Argyle playing an acoustic guitar outdoors at golden hour" loading="lazy" decoding="async"></picture>
@@ -130,6 +111,11 @@
           <li data-reveal>
             <figure>
               <picture><source type="image/avif" srcset="images/own-gallery-7-800.avif 800w, images/own-gallery-7-1536.avif 1536w" sizes="(min-width: 900px) 50vw, 100vw"><source type="image/webp" srcset="images/own-gallery-7-800.webp 800w, images/own-gallery-7-1536.webp 1536w" sizes="(min-width: 900px) 50vw, 100vw"><img src="images/own-gallery-7-1536.jpg" srcset="images/own-gallery-7-800.jpg 800w, images/own-gallery-7-1536.jpg 1536w" sizes="(min-width: 900px) 50vw, 100vw" width="1536" height="1920" alt="A drawn-style portrait of Ray Argyle singing with his guitar" loading="lazy" decoding="async"></picture>
+            </figure>
+          </li>
+          <li data-reveal>
+            <figure>
+              <picture><source type="image/avif" srcset="images/own-gallery-5-800.avif 800w, images/own-gallery-5-1600.avif 1600w" sizes="(min-width: 900px) 50vw, 100vw"><source type="image/webp" srcset="images/own-gallery-5-800.webp 800w, images/own-gallery-5-1600.webp 1600w" sizes="(min-width: 900px) 50vw, 100vw"><img src="images/own-gallery-5-1600.jpg" srcset="images/own-gallery-5-800.jpg 800w, images/own-gallery-5-1600.jpg 1600w" sizes="(min-width: 900px) 50vw, 100vw" width="1600" height="2000" alt="Ray Argyle in a long coat, standing in a column of blue light" loading="lazy" decoding="async"></picture>
             </figure>
           </li>
         </ul>
