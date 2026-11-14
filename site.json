@@ -4,7 +4,7 @@
  "template": "portfolio",
  "name": "Ray Argyle",
  "lang": "en",
- "description": "Ray Argyle — Songs and videos by Ray Argyle",
+ "description": "Ray Argyle: songs and videos, and where to follow along.",
  "cta": {
   "text": "Get in touch",
   "short": "Contact",
@@ -12,51 +12,590 @@
  },
  "design": {
   "look": "night",
-  "images": []
+  "images": [
+   {
+    "class": "client",
+    "id": "own-gallery-1",
+    "alt": "Ray Argyle playing guitar and singing in front of a brick wall hung with string lights",
+    "slot": "gallery",
+    "src": "images/own-gallery-1-1242.jpg",
+    "w": 1242,
+    "h": 1552,
+    "variants": [
+     {
+      "src": "images/own-gallery-1-800.avif",
+      "w": 800,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-gallery-1-800.webp",
+      "w": 800,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-gallery-1-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+     },
+     {
+      "src": "images/own-gallery-1-1242.avif",
+      "w": 1242,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-gallery-1-1242.webp",
+      "w": 1242,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-gallery-1-1242.jpg",
+      "w": 1242,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "4:5"
+   },
+   {
+    "class": "client",
+    "id": "own-gallery-2",
+    "alt": "Ray Argyle playing an acoustic guitar outdoors at golden hour",
+    "slot": "gallery",
+    "src": "images/own-gallery-2-1124.jpg",
+    "w": 1124,
+    "h": 1405,
+    "variants": [
+     {
+      "src": "images/own-gallery-2-800.avif",
+      "w": 800,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-gallery-2-800.webp",
+      "w": 800,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-gallery-2-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+     },
+     {
+      "src": "images/own-gallery-2-1124.avif",
+      "w": 1124,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-gallery-2-1124.webp",
+      "w": 1124,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-gallery-2-1124.jpg",
+      "w": 1124,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "4:5"
+   },
+   {
+    "class": "client",
+    "id": "own-gallery-3",
+    "alt": "Black-and-white photo of Ray Argyle singing on stage beside a saxophone player",
+    "slot": "gallery",
+    "src": "images/own-gallery-3-1532.jpg",
+    "w": 1532,
+    "h": 1915,
+    "variants": [
+     {
+      "src": "images/own-gallery-3-800.avif",
+      "w": 800,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-gallery-3-800.webp",
+      "w": 800,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-gallery-3-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+     },
+     {
+      "src": "images/own-gallery-3-1532.avif",
+      "w": 1532,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-gallery-3-1532.webp",
+      "w": 1532,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-gallery-3-1532.jpg",
+      "w": 1532,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "4:5"
+   },
+   {
+    "class": "client",
+    "id": "own-gallery-4",
+    "alt": "Ray Argyle and another guitarist playing seated, an accordion beside them",
+    "slot": "gallery",
+    "src": "images/own-gallery-4-1600.jpg",
+    "w": 1600,
+    "h": 2000,
+    "variants": [
+     {
+      "src": "images/own-gallery-4-800.avif",
+      "w": 800,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-gallery-4-800.webp",
+      "w": 800,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-gallery-4-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+     },
+     {
+      "src": "images/own-gallery-4-1600.avif",
+      "w": 1600,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-gallery-4-1600.webp",
+      "w": 1600,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-gallery-4-1600.jpg",
+      "w": 1600,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "4:5"
+   },
+   {
+    "class": "client",
+    "id": "own-gallery-5",
+    "alt": "Ray Argyle in a long coat, standing in blue light",
+    "slot": "gallery",
+    "src": "images/own-gallery-5-1600.jpg",
+    "w": 1600,
+    "h": 2000,
+    "variants": [
+     {
+      "src": "images/own-gallery-5-800.avif",
+      "w": 800,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-gallery-5-800.webp",
+      "w": 800,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-gallery-5-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+     },
+     {
+      "src": "images/own-gallery-5-1600.avif",
+      "w": 1600,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-gallery-5-1600.webp",
+      "w": 1600,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-gallery-5-1600.jpg",
+      "w": 1600,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "4:5"
+   },
+   {
+    "class": "client",
+    "id": "own-gallery-6",
+    "alt": "Ray Argyle singing with a red guitar under neon lights",
+    "slot": "gallery",
+    "src": "images/own-gallery-6-490.jpg",
+    "w": 490,
+    "h": 612,
+    "variants": [
+     {
+      "src": "images/own-gallery-6-490.avif",
+      "w": 490,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-gallery-6-490.webp",
+      "w": 490,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-gallery-6-490.jpg",
+      "w": 490,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "4:5"
+   },
+   {
+    "class": "client",
+    "id": "own-gallery-7",
+    "alt": "A drawn-style portrait of Ray Argyle singing with his guitar",
+    "slot": "gallery",
+    "src": "images/own-gallery-7-1536.jpg",
+    "w": 1536,
+    "h": 1920,
+    "variants": [
+     {
+      "src": "images/own-gallery-7-800.avif",
+      "w": 800,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-gallery-7-800.webp",
+      "w": 800,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-gallery-7-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+     },
+     {
+      "src": "images/own-gallery-7-1536.avif",
+      "w": 1536,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-gallery-7-1536.webp",
+      "w": 1536,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-gallery-7-1536.jpg",
+      "w": 1536,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "4:5"
+   },
+   {
+    "class": "client",
+    "id": "own-work-1",
+    "alt": "A still from Ray Argyle's video \"CURRENCY\"",
+    "slot": "work",
+    "src": "images/own-work-1-640.jpg",
+    "w": 640,
+    "h": 360,
+    "variants": [
+     {
+      "src": "images/own-work-1-640.avif",
+      "w": 640,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-work-1-640.webp",
+      "w": 640,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-work-1-640.jpg",
+      "w": 640,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "16:9"
+   },
+   {
+    "class": "client",
+    "id": "own-work-2",
+    "alt": "A still from Ray Argyle's video \"Lost To You\"",
+    "slot": "work",
+    "src": "images/own-work-2-640.jpg",
+    "w": 640,
+    "h": 360,
+    "variants": [
+     {
+      "src": "images/own-work-2-640.avif",
+      "w": 640,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-work-2-640.webp",
+      "w": 640,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-work-2-640.jpg",
+      "w": 640,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "16:9"
+   },
+   {
+    "class": "client",
+    "id": "own-work-3",
+    "alt": "A still from Ray Argyle's video \"you have no idea\"",
+    "slot": "work",
+    "src": "images/own-work-3-640.jpg",
+    "w": 640,
+    "h": 360,
+    "variants": [
+     {
+      "src": "images/own-work-3-640.avif",
+      "w": 640,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-work-3-640.webp",
+      "w": 640,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-work-3-640.jpg",
+      "w": 640,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "16:9"
+   },
+   {
+    "class": "client",
+    "id": "own-work-4",
+    "alt": "A still from Ray Argyle's video \"not my problem anymore\"",
+    "slot": "work",
+    "src": "images/own-work-4-1280.jpg",
+    "w": 1280,
+    "h": 720,
+    "variants": [
+     {
+      "src": "images/own-work-4-800.avif",
+      "w": 800,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-work-4-800.webp",
+      "w": 800,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-work-4-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+     },
+     {
+      "src": "images/own-work-4-1280.avif",
+      "w": 1280,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-work-4-1280.webp",
+      "w": 1280,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-work-4-1280.jpg",
+      "w": 1280,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "16:9"
+   },
+   {
+    "class": "client",
+    "id": "own-work-5",
+    "alt": "A still from Ray Argyle's video \"So Far Away From It Now\"",
+    "slot": "work",
+    "src": "images/own-work-5-1280.jpg",
+    "w": 1280,
+    "h": 720,
+    "variants": [
+     {
+      "src": "images/own-work-5-800.avif",
+      "w": 800,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-work-5-800.webp",
+      "w": 800,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-work-5-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+     },
+     {
+      "src": "images/own-work-5-1280.avif",
+      "w": 1280,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-work-5-1280.webp",
+      "w": 1280,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-work-5-1280.jpg",
+      "w": 1280,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "16:9"
+   },
+   {
+    "class": "client",
+    "id": "own-hero-2",
+    "alt": "Ray Argyle singing into a microphone with an acoustic guitar",
+    "source": "Ray's own site, rayargyle.com",
+    "licence": "theirs",
+    "focal": [
+     0.5,
+     0.25
+    ],
+    "slot": "hero",
+    "src": "images/own-hero-2-1170.jpg",
+    "w": 1170,
+    "h": 658,
+    "variants": [
+     {
+      "src": "images/own-hero-2-800.avif",
+      "w": 800,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-hero-2-800.webp",
+      "w": 800,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-hero-2-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+     },
+     {
+      "src": "images/own-hero-2-1170.avif",
+      "w": 1170,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-hero-2-1170.webp",
+      "w": 1170,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-hero-2-1170.jpg",
+      "w": 1170,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "16:9"
+   }
+  ]
  },
  "sections": [
   {
    "type": "hero",
    "heading": "Songs and videos by Ray Argyle",
    "secondary": {
-    "text": "See the work",
+    "text": "Watch the videos",
     "href": "#work"
-   }
+   },
+   "image": "own-hero-2"
   },
   {
    "type": "work",
-   "kicker": "Work",
-   "heading": "Selected work",
+   "kicker": "Videos",
+   "heading": "Videos",
    "items": [
     {
-     "title": "Project 1",
-     "text": "One line: what it was, for whom, when."
+     "title": "So Far Away From It Now",
+     "text": "On YouTube",
+     "image": "own-work-5"
     },
     {
-     "title": "Project 2",
-     "text": "One line: what it was, for whom, when."
+     "title": "not my problem anymore",
+     "text": "On YouTube",
+     "image": "own-work-4"
     },
     {
-     "title": "Project 3",
-     "text": "One line: what it was, for whom, when."
+     "title": "you have no idea",
+     "text": "On YouTube",
+     "image": "own-work-3"
+    },
+    {
+     "title": "Lost To You",
+     "text": "Directed by Ari Davis, 2010",
+     "image": "own-work-2"
+    },
+    {
+     "title": "CURRENCY",
+     "text": "Directed by Ari Davis, 2009",
+     "image": "own-work-1"
     }
    ]
   },
   {
-   "type": "about",
-   "kicker": "About",
-   "heading": "About",
-   "paragraphs": [
-    "A sentence or two: who they are and what they make.",
-    "A second short paragraph, or delete it."
+   "type": "gallery",
+   "kicker": "Photos",
+   "heading": "Live",
+   "images": [
+    "own-gallery-1",
+    "own-gallery-2",
+    "own-gallery-3",
+    "own-gallery-4",
+    "own-gallery-5",
+    "own-gallery-6",
+    "own-gallery-7"
    ]
   },
   {
    "type": "contact",
    "kicker": "Contact",
-   "heading": "Work together",
-   "intro": "Say how to reach them for a commission or a booking."
+   "heading": "Get in touch",
+   "intro": "Write, or follow along on YouTube, Instagram and Facebook.",
+   "links": [
+    {
+     "text": "YouTube",
+     "href": "https://www.youtube.com/@rayargyle8788"
+    },
+    {
+     "text": "Instagram",
+     "href": "https://www.instagram.com/ray_mawhinney"
+    },
+    {
+     "text": "Facebook",
+     "href": "https://www.facebook.com/rayargylemusic"
+    }
+   ]
   }
  ],
- "mail": "ray-argyle@mail.patchlamp.com"
+ "mail": "rayargyleray@gmail.com"
 }

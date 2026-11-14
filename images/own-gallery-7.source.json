@@ -1,0 +1,43 @@
+{
+  "class": "client",
+  "id": "own-gallery-7",
+  "alt": "A drawn-style portrait of Ray Argyle singing with his guitar",
+  "slot": "gallery",
+  "src": "images/own-gallery-7-1536.jpg",
+  "w": 1536,
+  "h": 1920,
+  "variants": [
+    {
+      "src": "images/own-gallery-7-800.avif",
+      "w": 800,
+      "type": "image/avif"
+    },
+    {
+      "src": "images/own-gallery-7-800.webp",
+      "w": 800,
+      "type": "image/webp"
+    },
+    {
+      "src": "images/own-gallery-7-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+    },
+    {
+      "src": "images/own-gallery-7-1536.avif",
+      "w": 1536,
+      "type": "image/avif"
+    },
+    {
+      "src": "images/own-gallery-7-1536.webp",
+      "w": 1536,
+      "type": "image/webp"
+    },
+    {
+      "src": "images/own-gallery-7-1536.jpg",
+      "w": 1536,
+      "type": "image/jpeg"
+    }
+  ],
+  "treatment": "none",
+  "ratio": "4:5"
+}

@@ -1,0 +1,43 @@
+{
+  "class": "client",
+  "id": "own-work-5",
+  "alt": "A still from Ray Argyle's video \"So Far Away From It Now\"",
+  "slot": "work",
+  "src": "images/own-work-5-1280.jpg",
+  "w": 1280,
+  "h": 720,
+  "variants": [
+    {
+      "src": "images/own-work-5-800.avif",
+      "w": 800,
+      "type": "image/avif"
+    },
+    {
+      "src": "images/own-work-5-800.webp",
+      "w": 800,
+      "type": "image/webp"
+    },
+    {
+      "src": "images/own-work-5-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+    },
+    {
+      "src": "images/own-work-5-1280.avif",
+      "w": 1280,
+      "type": "image/avif"
+    },
+    {
+      "src": "images/own-work-5-1280.webp",
+      "w": 1280,
+      "type": "image/webp"
+    },
+    {
+      "src": "images/own-work-5-1280.jpg",
+      "w": 1280,
+      "type": "image/jpeg"
+    }
+  ],
+  "treatment": "none",
+  "ratio": "16:9"
+}

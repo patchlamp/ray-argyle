@@ -1,0 +1,43 @@
+{
+  "class": "client",
+  "id": "own-gallery-3",
+  "alt": "Black-and-white photo of Ray Argyle singing on stage beside a saxophone player",
+  "slot": "gallery",
+  "src": "images/own-gallery-3-1532.jpg",
+  "w": 1532,
+  "h": 1915,
+  "variants": [
+    {
+      "src": "images/own-gallery-3-800.avif",
+      "w": 800,
+      "type": "image/avif"
+    },
+    {
+      "src": "images/own-gallery-3-800.webp",
+      "w": 800,
+      "type": "image/webp"
+    },
+    {
+      "src": "images/own-gallery-3-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+    },
+    {
+      "src": "images/own-gallery-3-1532.avif",
+      "w": 1532,
+      "type": "image/avif"
+    },
+    {
+      "src": "images/own-gallery-3-1532.webp",
+      "w": 1532,
+      "type": "image/webp"
+    },
+    {
+      "src": "images/own-gallery-3-1532.jpg",
+      "w": 1532,
+      "type": "image/jpeg"
+    }
+  ],
+  "treatment": "none",
+  "ratio": "4:5"
+}
