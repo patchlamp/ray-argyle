@@ -396,6 +396,14 @@
    "variant": "split"
   },
   {
+   "type": "about",
+   "kicker": "About",
+   "heading": "Ray Argyle and The End Times",
+   "paragraphs": [
+    "An indie, folk and rock band out of Utah Valley, playing the songs of singer-songwriter Ray Argyle."
+   ]
+  },
+  {
    "type": "custom",
    "file": "custom/videos.html"
   },
@@ -413,7 +421,7 @@
    "type": "contact",
    "kicker": "Contact",
    "heading": "Get in touch",
-   "intro": "Write, or follow along on YouTube, Instagram and Facebook.",
+   "intro": "For shows, festivals and licensing, write to rayargyleray@gmail.com. Or follow along on YouTube, Instagram and Facebook.",
    "links": [
     {
      "text": "YouTube",
