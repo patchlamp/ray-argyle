@@ -1,8 +1,0 @@
-/* Ray's site: the newest video leads across two columns, so five videos fill the grid with no tile left alone
-   (2 + 1 + … on a phone and a tablet, 2 + 1 then 3 on a desktop), and on a phone they sit two across so the
-   contact block isn't five screens down (the design judge's notes, 2026-11-14). */
-.work--grid .work-item:first-child { grid-column: span 2; }
-@media (max-width: 39.99em) {
-  .work--grid .work-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-2) var(--space); }
-  .work--grid .work-item h3 { font-size: var(--step-1); }
-}
