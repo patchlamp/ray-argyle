@@ -1,3 +1,23 @@
-/* Ray's site: the hero photo keeps his head in frame where the split hero crops it wide (a phone), since his
-   face sits in the top third of the photo (the design judge's note, 2026-11-14). */
+/* Ray's site (2026-11-14). The hero photo keeps his head in frame where the split hero crops it wide (a phone). */
 .hero--split .hero-media img { object-position: 50% 18%; }
+
+/* custom/videos.html: each video a still that opens it on YouTube. The newest leads on a phone (1, 2, 2) and a
+   tablet (2 + 1, then 3); a desktop has room for all five in one row. */
+.videos .video-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2) var(--space);
+  grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.videos .video-list li:first-child { grid-column: 1 / -1; }
+@media (min-width: 40em) {
+  .videos .video-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .videos .video-list li:first-child { grid-column: span 2; }
+}
+@media (min-width: 64em) {
+  .videos .video-list { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .videos .video-list li:first-child { grid-column: auto; }
+}
+.video-card { display: grid; gap: 0.35rem; color: inherit; text-decoration: none; }
+.video-card img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover;
+  border-radius: var(--radius-media); }
+.video-title { font-weight: 700; line-height: 1.25; }
+.video-meta { color: var(--ink-dim); font-size: var(--step--1); }
+.video-meta::before { content: "\25B6\00A0"; color: var(--accent); }
+.video-card:hover .video-title, .video-card:focus-visible .video-title { color: var(--accent); }

@@ -389,45 +389,15 @@
    "type": "hero",
    "heading": "Songs and videos by Ray Argyle",
    "secondary": {
-    "text": "Watch on YouTube",
-    "href": "https://www.youtube.com/@rayargyle8788"
+    "text": "Watch the videos",
+    "href": "#videos"
    },
    "image": "own-hero-2",
    "variant": "split"
   },
   {
-   "type": "work",
-   "kicker": "Videos",
-   "heading": "Watch",
-   "items": [
-    {
-     "title": "So Far Away From It Now",
-     "text": "",
-     "image": "own-work-9"
-    },
-    {
-     "title": "not my problem anymore",
-     "text": "",
-     "image": "own-work-8"
-    },
-    {
-     "title": "you have no idea",
-     "text": "",
-     "image": "own-work-7"
-    },
-    {
-     "title": "Lost To You",
-     "text": "Directed by Ari Davis, 2010",
-     "image": "own-work-2"
-    },
-    {
-     "title": "CURRENCY",
-     "text": "Directed by Ari Davis, 2009",
-     "image": "own-work-6"
-    }
-   ],
-   "variant": "typographic",
-   "intro": "All five are on YouTube."
+   "type": "custom",
+   "file": "custom/videos.html"
   },
   {
    "type": "gallery",
