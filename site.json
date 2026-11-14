@@ -1,0 +1,62 @@
+{
+ "schema": 2,
+ "slug": "ray-argyle",
+ "template": "portfolio",
+ "name": "Ray Argyle",
+ "lang": "en",
+ "description": "Ray Argyle — Songs and videos by Ray Argyle",
+ "cta": {
+  "text": "Get in touch",
+  "short": "Contact",
+  "href": "#contact"
+ },
+ "design": {
+  "look": "night",
+  "images": []
+ },
+ "sections": [
+  {
+   "type": "hero",
+   "heading": "Songs and videos by Ray Argyle",
+   "secondary": {
+    "text": "See the work",
+    "href": "#work"
+   }
+  },
+  {
+   "type": "work",
+   "kicker": "Work",
+   "heading": "Selected work",
+   "items": [
+    {
+     "title": "Project 1",
+     "text": "One line: what it was, for whom, when."
+    },
+    {
+     "title": "Project 2",
+     "text": "One line: what it was, for whom, when."
+    },
+    {
+     "title": "Project 3",
+     "text": "One line: what it was, for whom, when."
+    }
+   ]
+  },
+  {
+   "type": "about",
+   "kicker": "About",
+   "heading": "About",
+   "paragraphs": [
+    "A sentence or two: who they are and what they make.",
+    "A second short paragraph, or delete it."
+   ]
+  },
+  {
+   "type": "contact",
+   "kicker": "Contact",
+   "heading": "Work together",
+   "intro": "Say how to reach them for a commission or a booking."
+  }
+ ],
+ "mail": "ray-argyle@mail.patchlamp.com"
+}

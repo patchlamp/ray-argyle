@@ -1,0 +1,133 @@
+/* Space Grotesk — SIL OFL 1.1 (space-grotesk-OFL.txt), Fontsource's Latin subset, served by the site itself.
+   The renderer prepends this file to css/look.css and copies the woff2 files to fonts/,
+   so the url() is relative to css/. */
+@font-face { font-family: "Space Grotesk"; font-style: normal; font-weight: 300 700; font-display: swap;
+  src: url(../fonts/space-grotesk-latin-wght-normal.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* Look: Night. A photographer, a band, a maker whose work glows on black.
+   One idea: after dark, with one lamp on. A near-black ground the pictures shine out of, warm white
+   ink, one amber that means the action, a grotesk set big and tight like a gig bill, and one pale
+   band that reads as a lightbox, where the prints get looked at.
+   Grown from B64's night (its near-black, warm white and amber, Space Grotesk throughout, the photo
+   hero under a dark wash), with a pilot light for a kicker, lit buttons and the lights coming up.
+   The work is never graded: on black its own colours are the light.
+   Tokens first; the rules after them are this look's bounded set. */
+
+:root {
+  --bg: #141311;
+  --bg-raised: #1f1d1a;
+  --bg-alt: #1a1816;
+  --bg-line: #3a3631;
+  --ink: #f4efe6;             /* warm white, never paper white: easier on the eyes in the dark */
+  --ink-dim: #b2aa9e;
+  --accent: #f2b441;          /* B64 night's amber: the one lamp, kept for the action */
+  --accent-strong: #ffc65c;   /* on black a hover gets brighter, not darker */
+  --accent-ink: #16120b;
+  --accent-text: #f2b441;
+  /* the band is the lightbox: the one pale ground, dark ink on it */
+  --band: #ece6da;
+  --band-ink: #15120e;
+  --band-dim: #575046;
+  --band-accent: #7a4a06;
+  /* the hero is the darkest place on the page; literals, so a checker reads the pair shown */
+  --hero-ground: #0c0b0a;
+  --hero-ink: #f6f1e8;
+  --hero-dim: #b8b0a4;
+  --hero-accent: #f2b441;
+  --hero-scrim: #0c0b0a;
+  --proof-bg: #1f1d1a;
+  --proof-ink: #f4efe6;
+  --proof-mark: #f2b441;
+  --footer-bg: #0c0b0a;
+  --footer-ink: #b2aa9e;
+  --sorry-bg: #3a1a14;
+  --sorry-ink: #ffcfc4;
+  --photo-filter: none;
+  --rule-strong: 1px solid #5a554d;
+  /* one lamp: a warm pool of light from above on the dark fields, drawn here so no file is fetched */
+  --texture: radial-gradient(75% 65% at 22% 0%, rgb(242 180 65 / 0.13), transparent 72%);
+
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-text: "Space Grotesk", system-ui, sans-serif;
+  --font-kicker: var(--font-text);
+  --font-button: var(--font-text);
+  --display-weight: 700;
+  --heading-weight: 600;
+  --display-tracking: -0.035em;
+  --display-leading: 0.92;
+  --kicker-case: uppercase;
+  --kicker-tracking: 0.18em;
+  --kicker-weight: 500;
+  --kicker-size: var(--step--2);
+  --button-weight: 600;
+  --button-case: uppercase;
+  --button-tracking: 0.1em;
+  --text-leading: 1.6;
+  --step-6: clamp(3rem, 0.9rem + 8.6vw, 8.25rem);
+  --measure: 32em;
+
+  --radius: 3px;
+  --radius-card: 4px;
+  --radius-btn: 999px;
+  --radius-media: 2px;
+  --shadow-1: 0 0 0 1px var(--bg-line);
+  --shadow-2: 0 0 0 1px var(--bg-line);
+}
+
+/* The name as a label on a record sleeve: small, spaced, bold. */
+.wordmark { font-size: var(--step--1); font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; }
+
+/* Kickers: a pilot light, the small lamp that says the room is live. */
+.kicker, .hero-kicker { display: flex; align-items: center; gap: 0.65rem; }
+.kicker::before, .hero-kicker::before {
+  content: ""; flex: none; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: currentColor;
+  box-shadow: 0 0 0 3px color-mix(in srgb, currentColor 20%, transparent), 0 0 14px 1px currentColor;
+}
+
+/* Buttons: lit pills, the type small and spaced; the lamp glows when a finger or a pointer finds it. */
+.btn, .button { font-size: var(--step--1); }
+.btn:is([data-mail], [href^="tel:"], [href^="mailto:"]) { text-transform: none; letter-spacing: 0; font-size: var(--step-0); }   /* an address reads as written */
+.btn-primary:hover, .button:hover, .header-cta:hover {
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 22%, transparent), 0 10px 34px -8px color-mix(in srgb, var(--accent) 75%, transparent);
+}
+
+/* Hero: the headline set like a bill, tight and heavy, in the pool of light. */
+.hero--typographic .hero-heading { max-width: 13ch; letter-spacing: -0.045em; line-height: 0.9; }
+.hero-block { --band: #0c0b0a; --band-ink: #f6f1e8; --band-dim: #b8b0a4; --band-accent: #f2b441; }   /* the lightbox stays a band: a hero, its photo field and its wash are dark */
+.hero--band-card .hero-copy { border-top: 3px solid var(--accent); }
+.hero--split .hero-media { margin: 0 var(--page-pad) var(--page-pad); border-radius: var(--radius-media); }
+@media (min-width: 56em) { .hero--split .hero-media { margin: var(--space-2) var(--page-pad) var(--space-2) 0; } }
+
+/* The lightbox band: pale and flat, nothing glows on it. */
+.band { --texture: none; }
+
+/* The work: plates straight on black, captions under them; the numbers lit. */
+.work-item h3 { font-size: var(--step-1); font-weight: 600; letter-spacing: -0.015em; }
+.work-item p { font-size: var(--step--1); }
+.work--grid .work-list { gap: var(--space-3) var(--space); }
+.work--index .work-n { font-size: var(--step-4); font-weight: 300; letter-spacing: -0.04em; }
+.work--index .work-item h3 { font-size: var(--step-3); font-weight: 700; }
+.work--typographic .work-item h3 { font-size: var(--step-2); }
+
+/* Services and proof: the numbers light, the proof's marks lit. */
+.service-n, .work--typographic .work-n { font-weight: 300; }
+.proof--strip .proof-list { font-weight: 500; }
+.proof--strip li::before { box-shadow: 0 0 10px var(--proof-mark); }
+
+/* Forms: a dark sheet ruled at the top in amber, inputs a shade darker than the sheet. */
+.form-card { border-top: 2px solid var(--accent); }
+.site-form input:not([type=radio]):not([type=checkbox]), .site-form textarea { background: var(--bg); }
+
+/* The one moment: the lights come up. As the fonts arrive, the photo hero brightens from a dim room
+   to its own exposure, and with no photo the pool of light over the headline warms. Whole the whole time. */
+.hero--typographic::before, .hero-field::before {
+  content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background: radial-gradient(60% 55% at 26% 8%, rgb(242 180 65 / 0.12), transparent 70%);
+}
+@media (prefers-reduced-motion: no-preference) {
+  html.motion .hero-block .hero-media img { filter: brightness(0.7) saturate(0.85); transition: filter var(--dur-moment) var(--ease); }
+  html.motion body.is-ready .hero-block .hero-media img { filter: var(--photo-filter); }
+  html.motion .hero--typographic::before, html.motion .hero-field::before { opacity: 0.35; transition: opacity var(--dur-moment) var(--ease); }
+  html.motion body.is-ready .hero--typographic::before, html.motion body.is-ready .hero-field::before { opacity: 1; }
+}
