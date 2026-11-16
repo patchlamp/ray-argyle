@@ -59,13 +59,16 @@ how to change it, and how to check a change is live.
  "cta": {"text": "Get in touch", "short": "Contact", "href": "#contact"},
  "design": {"look": "editorial", "images": [{"id": "work-1", "src": "images/work-1-1200.jpg", "alt": "…", "class": "client"}]},
  "sections": [
-  {"type": "hero", "heading": "…", "secondary": {"text": "See the work", "href": "#work"}},
+  {"type": "hero", "heading": "…", "sub": "…", "secondary": {"text": "See the work", "href": "#work"}},
   {"type": "work", "heading": "Selected work", "items": [{"title": "…", "text": "…", "image": "work-1"}]},
   {"type": "about", "heading": "About", "paragraphs": ["…"]},
   {"type": "contact", "heading": "Work together", "intro": "…"}
  ]
 }
 ```
+
+- The hero reads `heading`, an optional `kicker` above it and `sub`, its supporting line under the heading;
+  `sub` is the only key it reads for that line (a `subheading` or an `intro` on the hero is ignored).
 
 - The sections a portfolio uses are `hero` (one, first), `work` (the pieces, each `{"title", "text", "image"}`), `about`
   and `contact` (the mail link and the call to action); any of the library's others (`proof`, `gallery`, `details`,
